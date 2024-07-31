@@ -1,7 +1,14 @@
 version: 2
 
 sources:
-  - name:
+  - name: phx_raw_shots
     database: phx_db
-    schema: raw
+    schema: public
     tables:
+      - name: bol_bol_shots
+      - name: bradley_beal_shots
+      - name: devin_booker_shots
+      - name: grayson_allen_shots
+      - name: jusuf_nurkic_shots
+      - name: kevin_durant_shots
+      - name: royce_oneale_shots

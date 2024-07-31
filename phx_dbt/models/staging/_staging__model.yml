@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: stg_beal_shots
+    description: '{{doc("stg_beal")}}'
