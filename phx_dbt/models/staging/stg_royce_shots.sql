@@ -2,9 +2,9 @@
     config(materialized='view')
 }}
 
-with source_book_shots as (
+with source_royce_shots as (
 
-    select 
+    select
     index,
     "SEASON_1" as season,
     "TEAM_ID" as team_id,
@@ -29,8 +29,8 @@ with source_book_shots as (
     "SHOT_DISTANCE" as shot_distance,
     "QUARTER" as quarter,
     "MINS_LEFT" as mins_left,
-    "SECS_LEFT" as secs_left
-    from {{source('phx_raw_shots', 'devin_booker_shots')}}
+    "SECS_LEFT" as secs_left 
+    from {{source('phx_raw_shots', 'royce_oneale_shots')}}
 )
 
-select * from source_book_shots
+select * from source_royce_shots
