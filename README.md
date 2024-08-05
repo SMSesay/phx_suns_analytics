@@ -11,10 +11,11 @@ This Project aims to store unstructured data in a Warehouse/Database for Analyti
 
 
 ## Project Architecture Overview 
-
+![Project Architecture](https://github.com/SMSesay/phx_suns_analytics/blob/dev/images/phx_suns_architecture_diagram.png)
 
 ## Tech Stack Used
 This Project uses a modern tech stack to efficiently create a pipeline. The key components are:
+- **Python**
 - **Postgres**
 - **DBT**
 - **Looker**
