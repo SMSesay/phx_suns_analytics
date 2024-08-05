@@ -3,3 +3,422 @@ version: 2
 models:
   - name: stg_beal_shots
     description: '{{doc("stg_beal")}}'
+    columns:
+      - name: index
+        description: '{{doc("index")}}'
+        tests:
+          - not_null:
+              severity: warn
+      - name: season
+        description: '{{doc("season_1")}}'
+      - name: season_1
+        description: '{{doc("season_1")}}'
+      - name: season_2
+        description: '{{doc("season_2")}}'
+      - name: team_id
+        description: '{{doc("team_id")}}'
+      - name: team_name
+        description: '{{doc("team_name")}}'
+      - name: player_id
+        description: '{{doc("player_id")}}'
+      - name: player_name
+        description: '{{doc("player_name")}}'
+      - name: position_group
+        description: '{{doc("position_group")}}'
+      - name: position
+        description: '{{doc("position")}}'
+      - name: game_date
+        description: '{{doc("game_date")}}'
+      - name: game_id
+        description: '{{doc("game_id")}}'
+      - name: home_team
+        description: '{{doc("home_team")}}'
+      - name: away_team
+        description: '{{doc("away_team")}}'
+      - name: event_type
+        description: '{{doc("event_type")}}'
+      - name: shot_made
+        description: '{{doc("shot_made")}}'
+      - name: action_type
+        description: '{{doc("action_type")}}'
+      - name: shot_type
+        description: '{{doc("shot_type")}}'
+      - name: basic_zone
+        description: '{{doc("basic_zone")}}'
+      - name: zone_name
+        description: '{{doc("zone_name")}}'
+      - name: zone_range
+        description: '{{doc("zone_range")}}'
+      - name: loc_x
+        description: '{{doc("loc_x")}}'
+      - name: loc_y
+        description: '{{doc("loc_y")}}'
+      - name: shot_distance
+        description: '{{doc("shot_distance")}}'
+      - name: quarter
+        description: '{{doc("quarter")}}'
+      - name: mins_left
+        description: '{{doc("mins_left")}}'
+      - name: secs_left
+        description: '{{doc("secs_left")}}'
+  - name: stg_bol_shots
+    description: '{{doc("stg_bol")}}'
+    columns:
+      - name: index
+        description: '{{doc("index")}}'
+        tests:
+          - not_null:
+              severity: warn
+      - name: season
+        description: '{{doc("season_1")}}'
+      - name: season_1
+        description: '{{doc("season_1")}}'
+      - name: season_2
+        description: '{{doc("season_2")}}'
+      - name: team_id
+        description: '{{doc("team_id")}}'
+      - name: team_name
+        description: '{{doc("team_name")}}'
+      - name: player_id
+        description: '{{doc("player_id")}}'
+      - name: player_name
+        description: '{{doc("player_name")}}'
+      - name: position_group
+        description: '{{doc("position_group")}}'
+      - name: position
+        description: '{{doc("position")}}'
+      - name: game_date
+        description: '{{doc("game_date")}}'
+      - name: game_id
+        description: '{{doc("game_id")}}'
+      - name: home_team
+        description: '{{doc("home_team")}}'
+      - name: away_team
+        description: '{{doc("away_team")}}'
+      - name: event_type
+        description: '{{doc("event_type")}}'
+      - name: shot_made
+        description: '{{doc("shot_made")}}'
+      - name: action_type
+        description: '{{doc("action_type")}}'
+      - name: shot_type
+        description: '{{doc("shot_type")}}'
+      - name: basic_zone
+        description: '{{doc("basic_zone")}}'
+      - name: zone_name
+        description: '{{doc("zone_name")}}'
+      - name: zone_range
+        description: '{{doc("zone_range")}}'
+      - name: loc_x
+        description: '{{doc("loc_x")}}'
+      - name: loc_y
+        description: '{{doc("loc_y")}}'
+      - name: shot_distance
+        description: '{{doc("shot_distance")}}'
+      - name: quarter
+        description: '{{doc("quarter")}}'
+      - name: mins_left
+        description: '{{doc("mins_left")}}'
+      - name: secs_left
+        description: '{{doc("secs_left")}}'
+    
+  - name: stg_book_shots
+    description: '{{doc("stg_book")}}'
+    columns:
+      - name: index
+        description: '{{doc("index")}}'
+        tests:
+          - not_null:
+              severity: warn
+      - name: season
+        description: '{{doc("season_1")}}'
+      - name: season_1
+        description: '{{doc("season_1")}}'
+      - name: season_2
+        description: '{{doc("season_2")}}'
+      - name: team_id
+        description: '{{doc("team_id")}}'
+      - name: team_name
+        description: '{{doc("team_name")}}'
+      - name: player_id
+        description: '{{doc("player_id")}}'
+      - name: player_name
+        description: '{{doc("player_name")}}'
+      - name: position_group
+        description: '{{doc("position_group")}}'
+      - name: position
+        description: '{{doc("position")}}'
+      - name: game_date
+        description: '{{doc("game_date")}}'
+      - name: game_id
+        description: '{{doc("game_id")}}'
+      - name: home_team
+        description: '{{doc("home_team")}}'
+      - name: away_team
+        description: '{{doc("away_team")}}'
+      - name: event_type
+        description: '{{doc("event_type")}}'
+      - name: shot_made
+        description: '{{doc("shot_made")}}'
+      - name: action_type
+        description: '{{doc("action_type")}}'
+      - name: shot_type
+        description: '{{doc("shot_type")}}'
+      - name: basic_zone
+        description: '{{doc("basic_zone")}}'
+      - name: zone_name
+        description: '{{doc("zone_name")}}'
+      - name: zone_range
+        description: '{{doc("zone_range")}}'
+      - name: loc_x
+        description: '{{doc("loc_x")}}'
+      - name: loc_y
+        description: '{{doc("loc_y")}}'
+      - name: shot_distance
+        description: '{{doc("shot_distance")}}'
+      - name: quarter
+        description: '{{doc("quarter")}}'
+      - name: mins_left
+        description: '{{doc("mins_left")}}'
+      - name: secs_left
+        description: '{{doc("secs_left")}}'
+  - name: stg_kd_shots
+    description: '{{doc("stg_kd")}}'
+    columns:
+      - name: index
+        description: '{{doc("index")}}'
+        tests:
+          - not_null:
+              severity: warn
+      - name: season
+        description: '{{doc("season_1")}}'
+      - name: season_1
+        description: '{{doc("season_1")}}'
+      - name: season_2
+        description: '{{doc("season_2")}}'
+      - name: team_id
+        description: '{{doc("team_id")}}'
+      - name: team_name
+        description: '{{doc("team_name")}}'
+      - name: player_id
+        description: '{{doc("player_id")}}'
+      - name: player_name
+        description: '{{doc("player_name")}}'
+      - name: position_group
+        description: '{{doc("position_group")}}'
+      - name: position
+        description: '{{doc("position")}}'
+      - name: game_date
+        description: '{{doc("game_date")}}'
+      - name: game_id
+        description: '{{doc("game_id")}}'
+      - name: home_team
+        description: '{{doc("home_team")}}'
+      - name: away_team
+        description: '{{doc("away_team")}}'
+      - name: event_type
+        description: '{{doc("event_type")}}'
+      - name: shot_made
+        description: '{{doc("shot_made")}}'
+      - name: action_type
+        description: '{{doc("action_type")}}'
+      - name: shot_type
+        description: '{{doc("shot_type")}}'
+      - name: basic_zone
+        description: '{{doc("basic_zone")}}'
+      - name: zone_name
+        description: '{{doc("zone_name")}}'
+      - name: zone_range
+        description: '{{doc("zone_range")}}'
+      - name: loc_x
+        description: '{{doc("loc_x")}}'
+      - name: loc_y
+        description: '{{doc("loc_y")}}'
+      - name: shot_distance
+        description: '{{doc("shot_distance")}}'
+      - name: quarter
+        description: '{{doc("quarter")}}'
+      - name: mins_left
+        description: '{{doc("mins_left")}}'
+      - name: secs_left
+        description: '{{doc("secs_left")}}'
+  - name: stg_allen_shots
+    description: '{{doc("stg_allen")}}'
+    columns:
+      - name: index
+        description: '{{doc("index")}}'
+        tests:
+          - not_null:
+              severity: warn
+      - name: season
+        description: '{{doc("season_1")}}'
+      - name: season_1
+        description: '{{doc("season_1")}}'
+      - name: season_2
+        description: '{{doc("season_2")}}'
+      - name: team_id
+        description: '{{doc("team_id")}}'
+      - name: team_name
+        description: '{{doc("team_name")}}'
+      - name: player_id
+        description: '{{doc("player_id")}}'
+      - name: player_name
+        description: '{{doc("player_name")}}'
+      - name: position_group
+        description: '{{doc("position_group")}}'
+      - name: position
+        description: '{{doc("position")}}'
+      - name: game_date
+        description: '{{doc("game_date")}}'
+      - name: game_id
+        description: '{{doc("game_id")}}'
+      - name: home_team
+        description: '{{doc("home_team")}}'
+      - name: away_team
+        description: '{{doc("away_team")}}'
+      - name: event_type
+        description: '{{doc("event_type")}}'
+      - name: shot_made
+        description: '{{doc("shot_made")}}'
+      - name: action_type
+        description: '{{doc("action_type")}}'
+      - name: shot_type
+        description: '{{doc("shot_type")}}'
+      - name: basic_zone
+        description: '{{doc("basic_zone")}}'
+      - name: zone_name
+        description: '{{doc("zone_name")}}'
+      - name: zone_range
+        description: '{{doc("zone_range")}}'
+      - name: loc_x
+        description: '{{doc("loc_x")}}'
+      - name: loc_y
+        description: '{{doc("loc_y")}}'
+      - name: shot_distance
+        description: '{{doc("shot_distance")}}'
+      - name: quarter
+        description: '{{doc("quarter")}}'
+      - name: mins_left
+        description: '{{doc("mins_left")}}'
+      - name: secs_left
+        description: '{{doc("secs_left")}}'
+  - name: stg_nurkic_shots
+    description: '{{doc("stg_nurkic")}}'
+    columns:
+      - name: index
+        description: '{{doc("index")}}'
+        tests:
+          - not_null:
+              severity: warn
+      - name: season
+        description: '{{doc("season_1")}}'
+      - name: season_1
+        description: '{{doc("season_1")}}'
+      - name: season_2
+        description: '{{doc("season_2")}}'
+      - name: team_id
+        description: '{{doc("team_id")}}'
+      - name: team_name
+        description: '{{doc("team_name")}}'
+      - name: player_id
+        description: '{{doc("player_id")}}'
+      - name: player_name
+        description: '{{doc("player_name")}}'
+      - name: position_group
+        description: '{{doc("position_group")}}'
+      - name: position
+        description: '{{doc("position")}}'
+      - name: game_date
+        description: '{{doc("game_date")}}'
+      - name: game_id
+        description: '{{doc("game_id")}}'
+      - name: home_team
+        description: '{{doc("home_team")}}'
+      - name: away_team
+        description: '{{doc("away_team")}}'
+      - name: event_type
+        description: '{{doc("event_type")}}'
+      - name: shot_made
+        description: '{{doc("shot_made")}}'
+      - name: action_type
+        description: '{{doc("action_type")}}'
+      - name: shot_type
+        description: '{{doc("shot_type")}}'
+      - name: basic_zone
+        description: '{{doc("basic_zone")}}'
+      - name: zone_name
+        description: '{{doc("zone_name")}}'
+      - name: zone_range
+        description: '{{doc("zone_range")}}'
+      - name: loc_x
+        description: '{{doc("loc_x")}}'
+      - name: loc_y
+        description: '{{doc("loc_y")}}'
+      - name: shot_distance
+        description: '{{doc("shot_distance")}}'
+      - name: quarter
+        description: '{{doc("quarter")}}'
+      - name: mins_left
+        description: '{{doc("mins_left")}}'
+      - name: secs_left
+        description: '{{doc("secs_left")}}'
+  - name: stg_royce_shots
+    description: '{{doc("stg_royce")}}'
+    columns:
+      - name: index
+        description: '{{doc("index")}}'
+        tests:
+          - not_null:
+              severity: warn
+      - name: season
+        description: '{{doc("season_1")}}'
+      - name: season_1
+        description: '{{doc("season_1")}}'
+      - name: season_2
+        description: '{{doc("season_2")}}'
+      - name: team_id
+        description: '{{doc("team_id")}}'
+      - name: team_name
+        description: '{{doc("team_name")}}'
+      - name: player_id
+        description: '{{doc("player_id")}}'
+      - name: position_group
+        description: '{{doc("position_group")}}'
+      - name: player_name
+        description: '{{doc("player_name")}}'
+      - name: position
+        description: '{{doc("position")}}'
+      - name: game_date
+        description: '{{doc("game_date")}}'
+      - name: game_id
+        description: '{{doc("game_id")}}'
+      - name: home_team
+        description: '{{doc("home_team")}}'
+      - name: away_team
+        description: '{{doc("away_team")}}'
+      - name: event_type
+        description: '{{doc("event_type")}}'
+      - name: shot_made
+        description: '{{doc("shot_made")}}'
+      - name: action_type
+        description: '{{doc("action_type")}}'
+      - name: shot_type
+        description: '{{doc("shot_type")}}'
+      - name: basic_zone
+        description: '{{doc("basic_zone")}}'
+      - name: zone_name
+        description: '{{doc("zone_name")}}'
+      - name: zone_range
+        description: '{{doc("zone_range")}}'
+      - name: loc_x
+        description: '{{doc("loc_x")}}'
+      - name: loc_y
+        description: '{{doc("loc_y")}}'
+      - name: shot_distance
+        description: '{{doc("shot_distance")}}'
+      - name: quarter
+        description: '{{doc("quarter")}}'
+      - name: mins_left
+        description: '{{doc("mins_left")}}'
+      - name: secs_left
+        description: '{{doc("secs_left")}}'

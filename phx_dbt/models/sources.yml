@@ -6,9 +6,16 @@ sources:
     schema: public
     tables:
       - name: bol_bol_shots
+        description: '{{doc("raw_bol")}}'
       - name: bradley_beal_shots
+        description: '{{doc("raw_beal")}}'
       - name: devin_booker_shots
+        description: '{{doc("raw_book")}}'
       - name: grayson_allen_shots
+        description: '{{doc("raw_allen")}}'
       - name: jusuf_nurkic_shots
+        description: '{{doc("raw_nurkic")}}'
       - name: kevin_durant_shots
+        description: '{{doc("raw_durant")}}'
       - name: royce_oneale_shots
+        description: '{{doc("raw_royce")}}'
